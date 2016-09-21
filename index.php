@@ -22,3 +22,11 @@ for ($i=0,$x=0;$x<16;$x++) {
 </br>
 </br>
 
+<?php
+$str="   TEST   ";
+echo trim ($str);
+echo "</br>";
+echo ltrim ($str);
+echo "</br>";
+echo chop ($str);
+?>
