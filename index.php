@@ -1,3 +1,4 @@
+<meta charset="utf-8">
 <?php
 for ($i=0,$x=0;$x<16;$x++) {
 	for ($y=0;$y<16;$y++) {
@@ -29,4 +30,28 @@ echo "</br>";
 echo ltrim ($str);
 echo "</br>";
 echo chop ($str);
+echo "</br>";
+echo "</br>";
+
+$st="Таким образом укрепление и развитие структуры обеспечивает широкому кругу участие в формировании дальнейших направлений развития.";
+echo strlen($st);
+echo "</br>";
+$where="privet";
+$what="ve";
+echo strpos($where,$what);
+echo "</br>";
+$wheree="privet privet";
+$whatt="ve";
+echo strrpos($wheree,$whatt);
+echo "</br>";
+$strone="A";
+$strtwo="a";
+echo strcmp($strone,$strtwo);
+echo "</br>";
+$stronee="A";
+$strtwoo="a";
+echo strcasecmp($strone,$strtwo);
+echo "</br>";
+$substr="укрепление и развитие структуры";
+echo substr($substr,11,20);
 ?>
